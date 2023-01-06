@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B828B38729681F6E0061A417 /* ColorsConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B828B38629681F6E0061A417 /* ColorsConstant.swift */; };
+		B828B3892968234B0061A417 /* TriviaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B828B3882968234B0061A417 /* TriviaView.swift */; };
+		B828B38B296824CE0061A417 /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = B828B38A296824CE0061A417 /* Trivia.swift */; };
+		B828B38F296828F10061A417 /* TriviaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B828B38E296828F10061A417 /* TriviaManager.swift */; };
 		B88E24E32966AE8800054D95 /* Trivia_GameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88E24E22966AE8800054D95 /* Trivia_GameApp.swift */; };
 		B88E24E52966AE8800054D95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88E24E42966AE8800054D95 /* ContentView.swift */; };
 		B88E24E72966AE8C00054D95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B88E24E62966AE8C00054D95 /* Assets.xcassets */; };
 		B88E24EB2966AE8C00054D95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B88E24EA2966AE8C00054D95 /* Preview Assets.xcassets */; };
-		B88E24F52966AE8D00054D95 /* Trivia_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88E24F42966AE8D00054D95 /* Trivia_GameTests.swift */; };
-		B88E24FF2966AE8D00054D95 /* Trivia_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88E24FE2966AE8D00054D95 /* Trivia_GameUITests.swift */; };
-		B88E25012966AE8D00054D95 /* Trivia_GameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88E25002966AE8D00054D95 /* Trivia_GameUITestsLaunchTests.swift */; };
+		B88E250F2966AFDC00054D95 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88E250E2966AFDC00054D95 /* PrimaryButton.swift */; };
+		B899BD6F2967039300F666C5 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B899BD6E2967039300F666C5 /* Extension.swift */; };
+		B899BD7129670A9900F666C5 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B899BD7029670A9900F666C5 /* QuestionView.swift */; };
+		B899BD7329670B7100F666C5 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B899BD7229670B7100F666C5 /* ProgressBar.swift */; };
+		B899BD7A29670D4100F666C5 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B899BD7929670D4100F666C5 /* Answer.swift */; };
+		B899BD8029670DDF00F666C5 /* AnswerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B899BD7F29670DDF00F666C5 /* AnswerRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B828B38629681F6E0061A417 /* ColorsConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsConstant.swift; sourceTree = "<group>"; };
+		B828B3882968234B0061A417 /* TriviaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaView.swift; sourceTree = "<group>"; };
+		B828B38A296824CE0061A417 /* Trivia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia.swift; sourceTree = "<group>"; };
+		B828B38E296828F10061A417 /* TriviaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaManager.swift; sourceTree = "<group>"; };
 		B88E24DF2966AE8800054D95 /* Trivia Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trivia Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B88E24E22966AE8800054D95 /* Trivia_GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia_GameApp.swift; sourceTree = "<group>"; };
 		B88E24E42966AE8800054D95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,10 +52,13 @@
 		B88E24E82966AE8C00054D95 /* Trivia_Game.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Trivia_Game.entitlements; sourceTree = "<group>"; };
 		B88E24EA2966AE8C00054D95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B88E24F02966AE8D00054D95 /* Trivia GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trivia GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B88E24F42966AE8D00054D95 /* Trivia_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia_GameTests.swift; sourceTree = "<group>"; };
 		B88E24FA2966AE8D00054D95 /* Trivia GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trivia GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B88E24FE2966AE8D00054D95 /* Trivia_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia_GameUITests.swift; sourceTree = "<group>"; };
-		B88E25002966AE8D00054D95 /* Trivia_GameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia_GameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B88E250E2966AFDC00054D95 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		B899BD6E2967039300F666C5 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		B899BD7029670A9900F666C5 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		B899BD7229670B7100F666C5 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		B899BD7929670D4100F666C5 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		B899BD7F29670DDF00F666C5 /* AnswerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRow.swift; sourceTree = "<group>"; usesTabs = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,12 +86,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B828B38129681F220061A417 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				B828B38629681F6E0061A417 /* ColorsConstant.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		B828B38C296828DA0061A417 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				B828B38E296828F10061A417 /* TriviaManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		B88E24D62966AE8800054D95 = {
 			isa = PBXGroup;
 			children = (
 				B88E24E12966AE8800054D95 /* Trivia Game */,
-				B88E24F32966AE8D00054D95 /* Trivia GameTests */,
-				B88E24FD2966AE8D00054D95 /* Trivia GameUITests */,
 				B88E24E02966AE8800054D95 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,11 +123,16 @@
 		B88E24E12966AE8800054D95 /* Trivia Game */ = {
 			isa = PBXGroup;
 			children = (
+				B828B38C296828DA0061A417 /* Manager */,
+				B828B38129681F220061A417 /* Constants */,
+				B899BD7429670D1B00F666C5 /* Models */,
+				B88E25102966B0D500054D95 /* Views */,
+				B88E250D2966AFCC00054D95 /* Components */,
 				B88E24E22966AE8800054D95 /* Trivia_GameApp.swift */,
-				B88E24E42966AE8800054D95 /* ContentView.swift */,
 				B88E24E62966AE8C00054D95 /* Assets.xcassets */,
 				B88E24E82966AE8C00054D95 /* Trivia_Game.entitlements */,
 				B88E24E92966AE8C00054D95 /* Preview Content */,
+				B899BD6E2967039300F666C5 /* Extension.swift */,
 			);
 			path = "Trivia Game";
 			sourceTree = "<group>";
@@ -112,21 +145,33 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		B88E24F32966AE8D00054D95 /* Trivia GameTests */ = {
+		B88E250D2966AFCC00054D95 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				B88E24F42966AE8D00054D95 /* Trivia_GameTests.swift */,
+				B88E250E2966AFDC00054D95 /* PrimaryButton.swift */,
+				B899BD7229670B7100F666C5 /* ProgressBar.swift */,
+				B899BD7F29670DDF00F666C5 /* AnswerRow.swift */,
 			);
-			path = "Trivia GameTests";
+			path = Components;
 			sourceTree = "<group>";
 		};
-		B88E24FD2966AE8D00054D95 /* Trivia GameUITests */ = {
+		B88E25102966B0D500054D95 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B88E24FE2966AE8D00054D95 /* Trivia_GameUITests.swift */,
-				B88E25002966AE8D00054D95 /* Trivia_GameUITestsLaunchTests.swift */,
+				B88E24E42966AE8800054D95 /* ContentView.swift */,
+				B899BD7029670A9900F666C5 /* QuestionView.swift */,
+				B828B3882968234B0061A417 /* TriviaView.swift */,
 			);
-			path = "Trivia GameUITests";
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B899BD7429670D1B00F666C5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B899BD7929670D4100F666C5 /* Answer.swift */,
+				B828B38A296824CE0061A417 /* Trivia.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +304,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B899BD7129670A9900F666C5 /* QuestionView.swift in Sources */,
+				B88E250F2966AFDC00054D95 /* PrimaryButton.swift in Sources */,
+				B899BD8029670DDF00F666C5 /* AnswerRow.swift in Sources */,
+				B828B38B296824CE0061A417 /* Trivia.swift in Sources */,
+				B828B3892968234B0061A417 /* TriviaView.swift in Sources */,
 				B88E24E52966AE8800054D95 /* ContentView.swift in Sources */,
+				B828B38729681F6E0061A417 /* ColorsConstant.swift in Sources */,
+				B899BD7A29670D4100F666C5 /* Answer.swift in Sources */,
+				B828B38F296828F10061A417 /* TriviaManager.swift in Sources */,
 				B88E24E32966AE8800054D95 /* Trivia_GameApp.swift in Sources */,
+				B899BD7329670B7100F666C5 /* ProgressBar.swift in Sources */,
+				B899BD6F2967039300F666C5 /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +323,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B88E24F52966AE8D00054D95 /* Trivia_GameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +330,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B88E24FF2966AE8D00054D95 /* Trivia_GameUITests.swift in Sources */,
-				B88E25012966AE8D00054D95 /* Trivia_GameUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
